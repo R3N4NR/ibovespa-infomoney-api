@@ -1,0 +1,792 @@
+{
+    
+    "2025-04-06": {
+        "high_values": [
+            {
+                "Ativo": "CRFB3",
+                "Último (R$)": "7,43",
+                "Var. Dia (%)": "10,77",
+                "Val. Min (R$)": "8,19",
+                "Val. Máx (R$)": "8,25",
+                "Data": "17:07 04/04",
+                "id": "high-CRFB3-1"
+            },
+            {
+                "Ativo": "BEEF3",
+                "Último (R$)": "6,46",
+                "Var. Dia (%)": "0,15",
+                "Val. Min (R$)": "6,44",
+                "Val. Máx (R$)": "6,59",
+                "Data": "17:07 04/04",
+                "id": "high-BEEF3-2"
+            },
+            {
+                "Ativo": "KLBN11",
+                "Último (R$)": "18,54",
+                "Var. Dia (%)": "0,05",
+                "Val. Min (R$)": "18,18",
+                "Val. Máx (R$)": "18,64",
+                "Data": "17:07 04/04",
+                "id": "high-KLBN11-3"
+            }
+        ],
+        "low_values": [
+            {
+                "Ativo": "BRAV3",
+                "Último (R$)": "21,06",
+                "Var. Dia (%)": "-12,92",
+                "Val. Min (R$)": "18,34",
+                "Val. Máx (R$)": "18,85",
+                "Data": "17:07 04/04",
+                "id": "low-BRAV3-1"
+            },
+            {
+                "Ativo": "VAMO3",
+                "Último (R$)": "4,84",
+                "Var. Dia (%)": "-9,92",
+                "Val. Min (R$)": "4,32",
+                "Val. Máx (R$)": "4,4",
+                "Data": "17:07 04/04",
+                "id": "low-VAMO3-2"
+            },
+            {
+                "Ativo": "RECV3",
+                "Último (R$)": "15,7",
+                "Var. Dia (%)": "-8,6",
+                "Val. Min (R$)": "14,35",
+                "Val. Máx (R$)": "14,56",
+                "Data": "17:07 04/04",
+                "id": "low-RECV3-3"
+            },
+            {
+                "Ativo": "MGLU3",
+                "Último (R$)": "11,8",
+                "Var. Dia (%)": "-8,22",
+                "Val. Min (R$)": "10,74",
+                "Val. Máx (R$)": "11,15",
+                "Data": "17:07 04/04",
+                "id": "low-MGLU3-4"
+            },
+            {
+                "Ativo": "IRBR3",
+                "Último (R$)": "53,13",
+                "Var. Dia (%)": "-8,11",
+                "Val. Min (R$)": "48,79",
+                "Val. Máx (R$)": "50,47",
+                "Data": "17:07 04/04",
+                "id": "low-IRBR3-5"
+            },
+            {
+                "Ativo": "PRIO3",
+                "Último (R$)": "36,83",
+                "Var. Dia (%)": "-7,96",
+                "Val. Min (R$)": "33,47",
+                "Val. Máx (R$)": "34,1",
+                "Data": "17:07 04/04",
+                "id": "low-PRIO3-6"
+            },
+            {
+                "Ativo": "USIM5",
+                "Último (R$)": "5,76",
+                "Var. Dia (%)": "-7,12",
+                "Val. Min (R$)": "5,34",
+                "Val. Máx (R$)": "5,44",
+                "Data": "17:07 04/04",
+                "id": "low-USIM5-7"
+            },
+            {
+                "Ativo": "CSAN3",
+                "Último (R$)": "7,79",
+                "Var. Dia (%)": "-7,06",
+                "Val. Min (R$)": "7,21",
+                "Val. Máx (R$)": "7,31",
+                "Data": "17:07 04/04",
+                "id": "low-CSAN3-8"
+            },
+            {
+                "Ativo": "CSNA3",
+                "Último (R$)": "8,81",
+                "Var. Dia (%)": "-6,58",
+                "Val. Min (R$)": "8,14",
+                "Val. Máx (R$)": "8,3",
+                "Data": "17:07 04/04",
+                "id": "low-CSNA3-9"
+            },
+            {
+                "Ativo": "BRKM5",
+                "Último (R$)": "10,44",
+                "Var. Dia (%)": "-6,51",
+                "Val. Min (R$)": "9,76",
+                "Val. Máx (R$)": "10",
+                "Data": "17:07 04/04",
+                "id": "low-BRKM5-10"
+            },
+            {
+                "Ativo": "CVCB3",
+                "Último (R$)": "2,14",
+                "Var. Dia (%)": "-5,61",
+                "Val. Min (R$)": "2",
+                "Val. Máx (R$)": "2,04",
+                "Data": "17:07 04/04",
+                "id": "low-CVCB3-11"
+            },
+            {
+                "Ativo": "COGN3",
+                "Último (R$)": "2,18",
+                "Var. Dia (%)": "-5,5",
+                "Val. Min (R$)": "2,04",
+                "Val. Máx (R$)": "2,08",
+                "Data": "17:07 04/04",
+                "id": "low-COGN3-12"
+            },
+            {
+                "Ativo": "LWSA3",
+                "Último (R$)": "2,73",
+                "Var. Dia (%)": "-5,49",
+                "Val. Min (R$)": "2,56",
+                "Val. Máx (R$)": "2,62",
+                "Data": "17:07 04/04",
+                "id": "low-LWSA3-13"
+            },
+            {
+                "Ativo": "MRVE3",
+                "Último (R$)": "5,28",
+                "Var. Dia (%)": "-5,49",
+                "Val. Min (R$)": "4,98",
+                "Val. Máx (R$)": "5,05",
+                "Data": "17:07 04/04",
+                "id": "low-MRVE3-14"
+            },
+            {
+                "Ativo": "ASAI3",
+                "Último (R$)": "8,44",
+                "Var. Dia (%)": "-5,45",
+                "Val. Min (R$)": "7,88",
+                "Val. Máx (R$)": "8,07",
+                "Data": "17:07 04/04",
+                "id": "low-ASAI3-15"
+            },
+            {
+                "Ativo": "RAIZ4",
+                "Último (R$)": "1,84",
+                "Var. Dia (%)": "-5,43",
+                "Val. Min (R$)": "1,72",
+                "Val. Máx (R$)": "1,78",
+                "Data": "17:07 04/04",
+                "id": "low-RAIZ4-16"
+            },
+            {
+                "Ativo": "B3SA3",
+                "Último (R$)": "12,73",
+                "Var. Dia (%)": "-5,34",
+                "Val. Min (R$)": "12,04",
+                "Val. Máx (R$)": "12,26",
+                "Data": "17:07 04/04",
+                "id": "low-B3SA3-17"
+            },
+            {
+                "Ativo": "HAPV3",
+                "Último (R$)": "2,25",
+                "Var. Dia (%)": "-5,33",
+                "Val. Min (R$)": "2,11",
+                "Val. Máx (R$)": "2,17",
+                "Data": "17:07 04/04",
+                "id": "low-HAPV3-18"
+            },
+            {
+                "Ativo": "EMBR3",
+                "Último (R$)": "63,36",
+                "Var. Dia (%)": "-5,29",
+                "Val. Min (R$)": "59,75",
+                "Val. Máx (R$)": "60,78",
+                "Data": "17:07 04/04",
+                "id": "low-EMBR3-19"
+            },
+            {
+                "Ativo": "GOAU4",
+                "Último (R$)": "8,81",
+                "Var. Dia (%)": "-5,22",
+                "Val. Min (R$)": "8,31",
+                "Val. Máx (R$)": "8,4",
+                "Data": "17:07 04/04",
+                "id": "low-GOAU4-20"
+            },
+            {
+                "Ativo": "BPAC11",
+                "Último (R$)": "34,81",
+                "Var. Dia (%)": "-5,14",
+                "Val. Min (R$)": "32,78",
+                "Val. Máx (R$)": "33,42",
+                "Data": "17:07 04/04",
+                "id": "low-BPAC11-21"
+            },
+            {
+                "Ativo": "SMTO3",
+                "Último (R$)": "20,03",
+                "Var. Dia (%)": "-5,14",
+                "Val. Min (R$)": "18,95",
+                "Val. Máx (R$)": "19,27",
+                "Data": "17:07 04/04",
+                "id": "low-SMTO3-22"
+            },
+            {
+                "Ativo": "IGTI11",
+                "Último (R$)": "19,52",
+                "Var. Dia (%)": "-5,07",
+                "Val. Min (R$)": "18,5",
+                "Val. Máx (R$)": "18,79",
+                "Data": "17:07 04/04",
+                "id": "low-IGTI11-23"
+            },
+            {
+                "Ativo": "VBBR3",
+                "Último (R$)": "18,61",
+                "Var. Dia (%)": "-4,94",
+                "Val. Min (R$)": "17,57",
+                "Val. Máx (R$)": "17,93",
+                "Data": "17:07 04/04",
+                "id": "low-VBBR3-24"
+            },
+            {
+                "Ativo": "GGBR4",
+                "Último (R$)": "15,92",
+                "Var. Dia (%)": "-4,84",
+                "Val. Min (R$)": "15,05",
+                "Val. Máx (R$)": "15,24",
+                "Data": "17:07 04/04",
+                "id": "low-GGBR4-25"
+            },
+            {
+                "Ativo": "LREN3",
+                "Último (R$)": "13,26",
+                "Var. Dia (%)": "-4,59",
+                "Val. Min (R$)": "12,55",
+                "Val. Máx (R$)": "12,7",
+                "Data": "17:07 04/04",
+                "id": "low-LREN3-26"
+            },
+            {
+                "Ativo": "PCAR3",
+                "Último (R$)": "3,38",
+                "Var. Dia (%)": "-4,44",
+                "Val. Min (R$)": "3,19",
+                "Val. Máx (R$)": "3,31",
+                "Data": "17:07 04/04",
+                "id": "low-PCAR3-27"
+            },
+            {
+                "Ativo": "UGPA3",
+                "Último (R$)": "17,78",
+                "Var. Dia (%)": "-4,38",
+                "Val. Min (R$)": "17",
+                "Val. Máx (R$)": "17,3",
+                "Data": "17:07 04/04",
+                "id": "low-UGPA3-28"
+            },
+            {
+                "Ativo": "PETR3",
+                "Último (R$)": "39,38",
+                "Var. Dia (%)": "-4,19",
+                "Val. Min (R$)": "36,61",
+                "Val. Máx (R$)": "37,74",
+                "Data": "17:07 04/04",
+                "id": "low-PETR3-29"
+            },
+            {
+                "Ativo": "ALOS3",
+                "Último (R$)": "20,25",
+                "Var. Dia (%)": "-4,05",
+                "Val. Min (R$)": "19,43",
+                "Val. Máx (R$)": "19,77",
+                "Data": "17:07 04/04",
+                "id": "low-ALOS3-30"
+            },
+            {
+                "Ativo": "PETR4",
+                "Último (R$)": "36",
+                "Var. Dia (%)": "-4,03",
+                "Val. Min (R$)": "33,9",
+                "Val. Máx (R$)": "34,69",
+                "Data": "17:07 04/04",
+                "id": "low-PETR4-31"
+            },
+            {
+                "Ativo": "VALE3",
+                "Último (R$)": "54,87",
+                "Var. Dia (%)": "-3,99",
+                "Val. Min (R$)": "52",
+                "Val. Máx (R$)": "52,68",
+                "Data": "17:07 04/04",
+                "id": "low-VALE3-32"
+            },
+            {
+                "Ativo": "AMOB3",
+                "Último (R$)": "0,26",
+                "Var. Dia (%)": "-3,85",
+                "Val. Min (R$)": "0,24",
+                "Val. Máx (R$)": "0,26",
+                "Data": "17:07 04/04",
+                "id": "low-AMOB3-33"
+            },
+            {
+                "Ativo": "AURE3",
+                "Último (R$)": "7,95",
+                "Var. Dia (%)": "-3,77",
+                "Val. Min (R$)": "7,63",
+                "Val. Máx (R$)": "7,73",
+                "Data": "17:07 04/04",
+                "id": "low-AURE3-34"
+            },
+            {
+                "Ativo": "CCRO3",
+                "Último (R$)": "12,19",
+                "Var. Dia (%)": "-3,77",
+                "Val. Min (R$)": "11,67",
+                "Val. Máx (R$)": "11,85",
+                "Data": "17:07 04/04",
+                "id": "low-CCRO3-35"
+            },
+            {
+                "Ativo": "VIVA3",
+                "Último (R$)": "20,6",
+                "Var. Dia (%)": "-3,74",
+                "Val. Min (R$)": "19,59",
+                "Val. Máx (R$)": "19,96",
+                "Data": "17:07 04/04",
+                "id": "low-VIVA3-36"
+            },
+            {
+                "Ativo": "TIMS3",
+                "Último (R$)": "17,53",
+                "Var. Dia (%)": "-3,59",
+                "Val. Min (R$)": "16,89",
+                "Val. Máx (R$)": "17,1",
+                "Data": "17:07 04/04",
+                "id": "low-TIMS3-37"
+            },
+            {
+                "Ativo": "BRAP4",
+                "Último (R$)": "17,32",
+                "Var. Dia (%)": "-3,58",
+                "Val. Min (R$)": "16,64",
+                "Val. Máx (R$)": "16,87",
+                "Data": "17:07 04/04",
+                "id": "low-BRAP4-38"
+            },
+            {
+                "Ativo": "SANB11",
+                "Último (R$)": "27,53",
+                "Var. Dia (%)": "-3,31",
+                "Val. Min (R$)": "26,35",
+                "Val. Máx (R$)": "26,84",
+                "Data": "17:07 04/04",
+                "id": "low-SANB11-39"
+            },
+            {
+                "Ativo": "RAIL3",
+                "Último (R$)": "17,64",
+                "Var. Dia (%)": "-3,29",
+                "Val. Min (R$)": "17,01",
+                "Val. Máx (R$)": "17,38",
+                "Data": "17:07 04/04",
+                "id": "low-RAIL3-40"
+            },
+            {
+                "Ativo": "MULT3",
+                "Último (R$)": "23,55",
+                "Var. Dia (%)": "-3,27",
+                "Val. Min (R$)": "22,69",
+                "Val. Máx (R$)": "22,9",
+                "Data": "17:07 04/04",
+                "id": "low-MULT3-41"
+            },
+            {
+                "Ativo": "CMIN3",
+                "Último (R$)": "5,84",
+                "Var. Dia (%)": "-3,25",
+                "Val. Min (R$)": "5,61",
+                "Val. Máx (R$)": "5,67",
+                "Data": "17:07 04/04",
+                "id": "low-CMIN3-42"
+            },
+            {
+                "Ativo": "POMO4",
+                "Último (R$)": "6,22",
+                "Var. Dia (%)": "-3,22",
+                "Val. Min (R$)": "6",
+                "Val. Máx (R$)": "6,06",
+                "Data": "17:07 04/04",
+                "id": "low-POMO4-43"
+            },
+            {
+                "Ativo": "CYRE3",
+                "Último (R$)": "25,19",
+                "Var. Dia (%)": "-3,06",
+                "Val. Min (R$)": "24,3",
+                "Val. Máx (R$)": "24,52",
+                "Data": "17:07 04/04",
+                "id": "low-CYRE3-44"
+            },
+            {
+                "Ativo": "RENT3",
+                "Último (R$)": "37,24",
+                "Var. Dia (%)": "-3,06",
+                "Val. Min (R$)": "35,9",
+                "Val. Máx (R$)": "36,36",
+                "Data": "17:07 04/04",
+                "id": "low-RENT3-45"
+            },
+            {
+                "Ativo": "AZUL4",
+                "Último (R$)": "3,31",
+                "Var. Dia (%)": "-3,02",
+                "Val. Min (R$)": "3,17",
+                "Val. Máx (R$)": "3,23",
+                "Data": "17:07 04/04",
+                "id": "low-AZUL4-46"
+            },
+            {
+                "Ativo": "NTCO3",
+                "Último (R$)": "9,43",
+                "Var. Dia (%)": "-2,97",
+                "Val. Min (R$)": "9,13",
+                "Val. Máx (R$)": "9,34",
+                "Data": "17:07 04/04",
+                "id": "low-NTCO3-47"
+            },
+            {
+                "Ativo": "ITSA4",
+                "Último (R$)": "9,61",
+                "Var. Dia (%)": "-2,91",
+                "Val. Min (R$)": "9,3",
+                "Val. Máx (R$)": "9,36",
+                "Data": "17:07 04/04",
+                "id": "low-ITSA4-48"
+            },
+            {
+                "Ativo": "ENGI11",
+                "Último (R$)": "42,17",
+                "Var. Dia (%)": "-2,66",
+                "Val. Min (R$)": "40,85",
+                "Val. Máx (R$)": "41,64",
+                "Data": "17:07 04/04",
+                "id": "low-ENGI11-49"
+            },
+            {
+                "Ativo": "ITUB4",
+                "Último (R$)": "31,97",
+                "Var. Dia (%)": "-2,6",
+                "Val. Min (R$)": "30,98",
+                "Val. Máx (R$)": "31,26",
+                "Data": "17:07 04/04",
+                "id": "low-ITUB4-50"
+            },
+            {
+                "Ativo": "VIVT3",
+                "Último (R$)": "52,41",
+                "Var. Dia (%)": "-2,59",
+                "Val. Min (R$)": "51,05",
+                "Val. Máx (R$)": "51,91",
+                "Data": "17:07 04/04",
+                "id": "low-VIVT3-51"
+            },
+            {
+                "Ativo": "YDUQ3",
+                "Último (R$)": "12,9",
+                "Var. Dia (%)": "-2,4",
+                "Val. Min (R$)": "12,4",
+                "Val. Máx (R$)": "12,71",
+                "Data": "17:07 04/04",
+                "id": "low-YDUQ3-52"
+            },
+            {
+                "Ativo": "BBSE3",
+                "Último (R$)": "41,19",
+                "Var. Dia (%)": "-2,27",
+                "Val. Min (R$)": "40,2",
+                "Val. Máx (R$)": "40,39",
+                "Data": "17:07 04/04",
+                "id": "low-BBSE3-53"
+            },
+            {
+                "Ativo": "FLRY3",
+                "Último (R$)": "11,95",
+                "Var. Dia (%)": "-2,09",
+                "Val. Min (R$)": "11,6",
+                "Val. Máx (R$)": "11,8",
+                "Data": "17:07 04/04",
+                "id": "low-FLRY3-54"
+            },
+            {
+                "Ativo": "SBSP3",
+                "Último (R$)": "105,55",
+                "Var. Dia (%)": "-2,04",
+                "Val. Min (R$)": "103,05",
+                "Val. Máx (R$)": "103,95",
+                "Data": "17:07 04/04",
+                "id": "low-SBSP3-55"
+            },
+            {
+                "Ativo": "BRFS3",
+                "Último (R$)": "19,64",
+                "Var. Dia (%)": "-1,99",
+                "Val. Min (R$)": "19,25",
+                "Val. Máx (R$)": "19,8",
+                "Data": "17:07 04/04",
+                "id": "low-BRFS3-56"
+            },
+            {
+                "Ativo": "CPLE6",
+                "Último (R$)": "10,83",
+                "Var. Dia (%)": "-1,94",
+                "Val. Min (R$)": "10,57",
+                "Val. Máx (R$)": "10,73",
+                "Data": "17:07 04/04",
+                "id": "low-CPLE6-57"
+            },
+            {
+                "Ativo": "BBDC3",
+                "Último (R$)": "11,39",
+                "Var. Dia (%)": "-1,93",
+                "Val. Min (R$)": "11,09",
+                "Val. Máx (R$)": "11,23",
+                "Data": "17:07 04/04",
+                "id": "low-BBDC3-58"
+            },
+            {
+                "Ativo": "BBAS3",
+                "Último (R$)": "28,51",
+                "Var. Dia (%)": "-1,86",
+                "Val. Min (R$)": "27,89",
+                "Val. Máx (R$)": "28,06",
+                "Data": "17:07 04/04",
+                "id": "low-BBAS3-59"
+            },
+            {
+                "Ativo": "ELET6",
+                "Último (R$)": "44,8",
+                "Var. Dia (%)": "-1,79",
+                "Val. Min (R$)": "43,89",
+                "Val. Máx (R$)": "44,24",
+                "Data": "17:07 04/04",
+                "id": "low-ELET6-60"
+            },
+            {
+                "Ativo": "RADL3",
+                "Último (R$)": "19,86",
+                "Var. Dia (%)": "-1,66",
+                "Val. Min (R$)": "19,46",
+                "Val. Máx (R$)": "19,77",
+                "Data": "17:07 04/04",
+                "id": "low-RADL3-61"
+            },
+            {
+                "Ativo": "ENEV3",
+                "Último (R$)": "12,11",
+                "Var. Dia (%)": "-1,57",
+                "Val. Min (R$)": "11,82",
+                "Val. Máx (R$)": "11,95",
+                "Data": "17:07 04/04",
+                "id": "low-ENEV3-62"
+            },
+            {
+                "Ativo": "PSSA3",
+                "Último (R$)": "41,03",
+                "Var. Dia (%)": "-1,54",
+                "Val. Min (R$)": "40,25",
+                "Val. Máx (R$)": "40,54",
+                "Data": "17:07 04/04",
+                "id": "low-PSSA3-63"
+            },
+            {
+                "Ativo": "ISAE4",
+                "Último (R$)": "22,44",
+                "Var. Dia (%)": "-1,52",
+                "Val. Min (R$)": "21,96",
+                "Val. Máx (R$)": "22,13",
+                "Data": "17:07 04/04",
+                "id": "low-ISAE4-64"
+            },
+            {
+                "Ativo": "CMIG4",
+                "Último (R$)": "10,15",
+                "Var. Dia (%)": "-1,48",
+                "Val. Min (R$)": "9,99",
+                "Val. Máx (R$)": "10,03",
+                "Data": "17:07 04/04",
+                "id": "low-CMIG4-65"
+            },
+            {
+                "Ativo": "WEGE3",
+                "Último (R$)": "44,27",
+                "Var. Dia (%)": "-1,24",
+                "Val. Min (R$)": "43,44",
+                "Val. Máx (R$)": "43,89",
+                "Data": "17:07 04/04",
+                "id": "low-WEGE3-66"
+            },
+            {
+                "Ativo": "ELET3",
+                "Último (R$)": "41,37",
+                "Var. Dia (%)": "-1,23",
+                "Val. Min (R$)": "40,65",
+                "Val. Máx (R$)": "40,99",
+                "Data": "17:07 04/04",
+                "id": "low-ELET3-67"
+            },
+            {
+                "Ativo": "BBDC4",
+                "Último (R$)": "12,71",
+                "Var. Dia (%)": "-1,1",
+                "Val. Min (R$)": "12,44",
+                "Val. Máx (R$)": "12,66",
+                "Data": "17:07 04/04",
+                "id": "low-BBDC4-68"
+            },
+            {
+                "Ativo": "HYPE3",
+                "Último (R$)": "20,55",
+                "Var. Dia (%)": "-1,07",
+                "Val. Min (R$)": "20,07",
+                "Val. Máx (R$)": "20,37",
+                "Data": "17:07 04/04",
+                "id": "low-HYPE3-69"
+            },
+            {
+                "Ativo": "ABEV3",
+                "Último (R$)": "13,85",
+                "Var. Dia (%)": "-1,01",
+                "Val. Min (R$)": "13,56",
+                "Val. Máx (R$)": "13,89",
+                "Data": "17:07 04/04",
+                "id": "low-ABEV3-70"
+            },
+            {
+                "Ativo": "TOTS3",
+                "Último (R$)": "34,5",
+                "Var. Dia (%)": "-1,01",
+                "Val. Min (R$)": "33,9",
+                "Val. Máx (R$)": "34,22",
+                "Data": "17:07 04/04",
+                "id": "low-TOTS3-71"
+            },
+            {
+                "Ativo": "PETZ3",
+                "Último (R$)": "4,08",
+                "Var. Dia (%)": "-0,98",
+                "Val. Min (R$)": "4,03",
+                "Val. Máx (R$)": "4,11",
+                "Data": "17:07 04/04",
+                "id": "low-PETZ3-72"
+            },
+            {
+                "Ativo": "RDOR3",
+                "Último (R$)": "28,87",
+                "Var. Dia (%)": "-0,87",
+                "Val. Min (R$)": "28,26",
+                "Val. Máx (R$)": "28,82",
+                "Data": "17:07 04/04",
+                "id": "low-RDOR3-73"
+            },
+            {
+                "Ativo": "EGIE3",
+                "Último (R$)": "39,97",
+                "Var. Dia (%)": "-0,85",
+                "Val. Min (R$)": "39,64",
+                "Val. Máx (R$)": "40,04",
+                "Data": "17:07 04/04",
+                "id": "low-EGIE3-74"
+            },
+            {
+                "Ativo": "JBSS3",
+                "Último (R$)": "41,07",
+                "Var. Dia (%)": "-0,68",
+                "Val. Min (R$)": "40,79",
+                "Val. Máx (R$)": "41,48",
+                "Data": "17:07 04/04",
+                "id": "low-JBSS3-75"
+            },
+            {
+                "Ativo": "CPFE3",
+                "Último (R$)": "38,11",
+                "Var. Dia (%)": "-0,55",
+                "Val. Min (R$)": "37,65",
+                "Val. Máx (R$)": "38,11",
+                "Data": "17:07 04/04",
+                "id": "low-CPFE3-76"
+            },
+            {
+                "Ativo": "SLCE3",
+                "Último (R$)": "18,63",
+                "Var. Dia (%)": "-0,54",
+                "Val. Min (R$)": "18,53",
+                "Val. Máx (R$)": "19,01",
+                "Data": "17:07 04/04",
+                "id": "low-SLCE3-77"
+            },
+            {
+                "Ativo": "TAEE11",
+                "Último (R$)": "34,45",
+                "Var. Dia (%)": "-0,44",
+                "Val. Min (R$)": "34,24",
+                "Val. Máx (R$)": "34,5",
+                "Data": "17:07 04/04",
+                "id": "low-TAEE11-78"
+            },
+            {
+                "Ativo": "SUZB3",
+                "Último (R$)": "51,07",
+                "Var. Dia (%)": "-0,33",
+                "Val. Min (R$)": "50,3",
+                "Val. Máx (R$)": "51,09",
+                "Data": "17:07 04/04",
+                "id": "low-SUZB3-79"
+            },
+            {
+                "Ativo": "MRFG3",
+                "Último (R$)": "18,6",
+                "Var. Dia (%)": "-0,27",
+                "Val. Min (R$)": "18,3",
+                "Val. Máx (R$)": "18,6",
+                "Data": "17:07 04/04",
+                "id": "low-MRFG3-80"
+            },
+            {
+                "Ativo": "CXSE3",
+                "Último (R$)": "15,16",
+                "Var. Dia (%)": "-0,26",
+                "Val. Min (R$)": "15,06",
+                "Val. Máx (R$)": "15,3",
+                "Data": "17:07 04/04",
+                "id": "low-CXSE3-81"
+            },
+            {
+                "Ativo": "STBP3",
+                "Último (R$)": "13,33",
+                "Var. Dia (%)": "-0,23",
+                "Val. Min (R$)": "13,29",
+                "Val. Máx (R$)": "13,32",
+                "Data": "17:07 04/04",
+                "id": "low-STBP3-82"
+            },
+            {
+                "Ativo": "ARZZ3",
+                "Último (R$)": "48,69",
+                "Var. Dia (%)": "-0,08",
+                "Val. Min (R$)": "48,64",
+                "Val. Máx (R$)": "49,8",
+                "Data": "17:07 31/07",
+                "id": "low-ARZZ3-83"
+            },
+            {
+                "Ativo": "EQTL3",
+                "Último (R$)": "33,35",
+                "Var. Dia (%)": "-0,06",
+                "Val. Min (R$)": "33,1",
+                "Val. Máx (R$)": "33,65",
+                "Data": "17:07 04/04",
+                "id": "low-EQTL3-84"
+            }
+        ]
+    }
+}

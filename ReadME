@@ -1,0 +1,52 @@
+# Projeto API de Scraping e WebSocket
+
+Este projeto consiste em uma aplicação Python para scraping de dados, salvamento em banco de dados PostgreSQL e comunicação em tempo real via WebSocket.
+
+---
+
+## 📁 Estrutura do Projeto
+
+```bash
+api/
+├── data/                    # Arquivos HTML e JSON utilizados ou gerados pelo scraper
+│   ├── pagina.html
+│   ├── tables_backup.json
+│   └── tables_data.json
+├── db/                      # Módulos de conexão, criação e inserção no banco de dados
+│   ├── connection.py
+│   ├── create_database.py
+│   ├── insert_data.py
+│   └── schema.py
+├── scrapper/                # Módulos responsáveis por raspagem e processamento dos dados
+│   ├── data_parser.py
+│   ├── save_html.py
+│   └── scrape_html.py
+├── service/                 # Servidor HTTP e integração com outros serviços
+│   ├── http_server.py
+│   └── server.py
+│   └── websocket_server.py                  # Servidor WebSocket para comunicação em tempo real
+├── main.py                  # Ponto de entrada principal da aplicação
+├── README.md                # Este arquivo de documentação
+├── requirements.txt         # Lista de dependências do projeto
+└── .env                     # Variáveis de ambiente sensíveis (como strings de conexão)
+
+🚀 Como Executar
+
+pip install -r requirements.txt
+
+🎉 Execute o projeto 
+
+python main.py
+
+🧰 Tecnologias Utilizadas
+Python 3.x
+
+WebSocket (websockets)
+
+FastAPI ou Flask (dependendo da implementação)
+
+PostgreSQL
+
+BeautifulSoup & Selenium (para scraping)
+
+AsyncPG (para banco de dados assíncrono)
