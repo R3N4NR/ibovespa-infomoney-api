@@ -8,7 +8,7 @@ Este projeto consiste em uma aplicação Python para scraping de dados, salvamen
 
 ```bash
 api/
-├── data/                    # Arquivos HTML e JSON utilizados ou gerados pelo scraper
+├── data/                    # Arquivos HTML e JSON utilizados ou gerados pelo scraper (adicionado ao gitignore, ao executra verificar se o diretorio esta criado)
 │   ├── pagina.html
 │   ├── tables_backup.json
 │   └── tables_data.json
@@ -22,7 +22,7 @@ api/
 │   ├── save_html.py
 │   └── scrape_html.py
 ├── service/                 # Servidor HTTP e integração com outros serviços
-│   ├── http_server.py
+│   ├── flask_server.py
 │   └── server.py
 │   └── websocket_server.py                  # Servidor WebSocket para comunicação em tempo real
 ├── main.py                  # Ponto de entrada principal da aplicação
