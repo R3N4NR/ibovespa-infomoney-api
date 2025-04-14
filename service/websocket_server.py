@@ -26,12 +26,20 @@ async def handler(websocket, path):
                 if command_callback:
                     await command_callback(message)
             except websockets.ConnectionClosed:
+                print(f"Conexão fechada com o cliente {websocket.remote_address}")
+                break
+            except Exception as e:
+                print(f"Erro inesperado com cliente {websocket.remote_address}: {e}")
                 break
     finally:
         connected_clients.remove(websocket)
-        print("Cliente desconectado.")
+        print(f"Cliente {websocket.remote_address} desconectado.")
 
 async def start_websocket_server():
     server = await websockets.serve(handler, "localhost", 8765)
     print("Servidor WebSocket iniciado na porta 8765")
     await server.wait_closed()
+
+# Inicia o servidor WebSocket
+if __name__ == "__main__":
+    asyncio.run(start_websocket_server())

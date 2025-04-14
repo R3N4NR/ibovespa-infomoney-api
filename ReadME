@@ -17,7 +17,7 @@ api/
 │   ├── create_database.py
 │   ├── insert_data.py
 │   └── schema.py
-├── scrapper/                # Módulos responsáveis por raspagem e processamento dos dados
+├── scraper/                # Módulos responsáveis por raspagem e processamento dos dados
 │   ├── data_parser.py
 │   ├── save_html.py
 │   └── scrape_html.py

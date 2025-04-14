@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup
 from datetime import datetime
 import uuid
-
 def parse_table(table):
     rows = []
     headers = [th.get_text(strip=True) for th in table.select("thead tr th")]
@@ -12,7 +11,7 @@ def parse_table(table):
             continue  # Ignora linhas com quantidade de dados inconsistentes
         row = dict(zip(headers, values))
         row["Data"] = datetime.now().date().isoformat()
-        row["UUID"] = str(uuid.uuid4())  # Gera um UUID único para cada linha
+        row["ID"] = uuid.uuid4()
         rows.append(row)
     return rows
 
@@ -35,5 +34,6 @@ def extract_table_data(html):
     if low:
         data["low_values"] = parse_table(low)
 
+   
     # Organiza os dados com a data no formato iso
     return {today: data}

@@ -1,11 +1,10 @@
 from flask import Flask, jsonify
 from flask_cors import CORS
 import asyncio
-
 from scraper.html_scraper import scrape_html
 from scraper.table_data_parser import extract_table_data
-from db.insert_data import insert_data_from_dict
-from db.connection import get_db_pool
+from db import insert_data_from_dict
+from db import get_db_pool
 from service.websocket_server import send_to_all_clients
 
 def create_flask_app():
@@ -14,7 +13,8 @@ def create_flask_app():
 
     @app.route('/scrape', methods=['GET'])
     async def scrape_route():
-        html = await asyncio.to_thread(scrape_html) 
+        
+        html = await scrape_html()  # Usa await para obter o HTML
         data = extract_table_data(html)
         await insert_data_from_dict(data)
         await send_to_all_clients(data)
@@ -31,13 +31,13 @@ def create_flask_app():
         stocks_data = await fetch_data()
         return jsonify(stocks_data), 200
     
-    @app.route('/stocks/<string:ativo>/<string:data>', methods=['GET'])
-    async def get_stock_by_date(ativo, data):
+    @app.route('/stocks/<string:date>', methods=['GET'])
+    async def get_stock_by_date(date):
         async def fetch_data():
             pool = await get_db_pool()
             async with pool.acquire() as conn:
-                query = "SELECT * FROM stocks WHERE ativo = $1 AND data = $2"
-                rows = await conn.fetch(query, ativo, data)
+                query = "SELECT * FROM stocks WHERE date = $1"
+                rows = await conn.fetch(query, date)
             await pool.close()
             return [dict(row) for row in rows]
 

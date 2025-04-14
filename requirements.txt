@@ -6,3 +6,4 @@ beautifulsoup4
 selenium
 hypercorn
 python-dotenv
+aiohttp

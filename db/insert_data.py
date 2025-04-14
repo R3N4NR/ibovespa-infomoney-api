@@ -1,13 +1,28 @@
-import asyncpg
-from db.connection import get_db_pool
-
+from db import get_db_pool
+import uuid
 async def insert_data_from_dict(data):
     pool = await get_db_pool()
     async with pool.acquire() as conn:
-        for date, table_data in data.items():
+        for date_key, table_data in data.items():
             for key, values in table_data.items():
                 for value in values:
+                    ativo = value.get("Ativo")
+                    ultimo = value.get("Último (R$)")
+                    variacao = value.get("Var. Dia (%)")
+                    val_min = value.get("Val. Min (R$)")
+                    val_max = value.get("Val. Máx (R$)")
+                    date = value.get("Data")
+                    id = value.get("ID")
+                    print(ativo, ultimo, variacao, val_min, val_max, date, uuid )
+        
+
                     await conn.execute('''
-                        INSERT INTO variacoes (ativo, tipo, referencia, valor)
-                        VALUES ($1, $2, $3, $4)
-                    ''', value["Ativo"], key, date, value["Valor"])
+                        INSERT INTO stocks (id, ativo, ultimo, variacao, val_min, val_max, date)
+                        VALUES ($1, $2, $3, $4, $5, $6, $7)
+                        ON CONFLICT (ativo, date) DO UPDATE
+                        SET
+                            ultimo = EXCLUDED.ultimo,
+                            variacao = EXCLUDED.variacao,
+                            val_min = EXCLUDED.val_min,
+                            val_max = EXCLUDED.val_max
+                    ''', id, ativo, ultimo, variacao, val_min, val_max, date)
