@@ -7,7 +7,7 @@ load_dotenv()
 async def handle_create_database():
     db_name = os.getenv("DB_NAME")
     try:
-        # Conecta ao banco postgres padrão
+       
         conn = await asyncpg.connect(
             host=os.getenv("DB_HOST"),
             port=os.getenv("DB_PORT"),
@@ -16,7 +16,6 @@ async def handle_create_database():
             database="postgres"
         )
 
-        # Verifica se o banco já existe
         result = await conn.fetch("SELECT 1 FROM pg_database WHERE datname = $1", db_name)
         if not result:
             await conn.execute(f'CREATE DATABASE "{db_name}"')
@@ -25,7 +24,6 @@ async def handle_create_database():
             print(f"Banco '{db_name}' já existe.")
         await conn.close()
 
-        # Conecta ao banco alvo
         conn = await asyncpg.connect(
             host=os.getenv("DB_HOST"),
             port=os.getenv("DB_PORT"),
@@ -34,7 +32,7 @@ async def handle_create_database():
             database=db_name
         )
 
-        # Criação da tabela se não existir
+
         await conn.execute("""
             CREATE TABLE IF NOT EXISTS stocks (
                 id UUID PRIMARY KEY,
@@ -43,11 +41,22 @@ async def handle_create_database():
                 variacao TEXT,
                 val_min TEXT,
                 val_max TEXT,
-                date TEXT NOT NULL
+                date TEXT NOT NULL,
+                UNIQUE (ativo, date)
             );
         """)
 
-        # Garante que a constraint de unicidade (ativo, date) exista
+        await conn.execute("""
+            CREATE TABLE IF NOT EXISTS ibovespa_summary (
+                id UUID PRIMARY KEY,
+                pontos TEXT,
+                variacao_dia TEXT,
+                min_dia TEXT,
+                max_dia TEXT,
+                date TEXT NOT NULL UNIQUE
+            );
+        """)
+
         await conn.execute("""
             DO $$
             BEGIN
@@ -59,8 +68,19 @@ async def handle_create_database():
             END
             $$;
         """)
+        await conn.execute("""
+            DO $$
+            BEGIN
+                IF NOT EXISTS (
+                    SELECT 1 FROM pg_constraint WHERE conname = 'unique_date'
+                ) THEN
+                    ALTER TABLE ibovespa_summary ADD CONSTRAINT unique_date UNIQUE (date);
+                END IF;
+            END
+            $$;
+        """)
 
-        print("Tabela 'stocks' verificada/criada com sucesso.")
+        print("Tabela 'stocks' e 'ibovespa_overview' verificadas/criadas com sucesso.")
     except Exception as e:
         print(f"Erro ao criar o banco ou tabela: {str(e)}")
     finally:

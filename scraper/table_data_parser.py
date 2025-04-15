@@ -8,7 +8,7 @@ def parse_table(table):
     for tr in table.select("tbody tr"):
         values = [td.get_text(strip=True) for td in tr.select("td")]
         if len(values) != len(headers):
-            continue  # Ignora linhas com quantidade de dados inconsistentes
+            continue  
         row = dict(zip(headers, values))
         row["Data"] = datetime.now().date().isoformat()
         row["ID"] = uuid.uuid4()
@@ -18,7 +18,6 @@ def parse_table(table):
 def extract_table_data(html):
     soup = BeautifulSoup(html, "html.parser")
 
-    # Armazenando a data uma vez no início da função
     today = datetime.now().date().isoformat()
 
     data = {
@@ -34,6 +33,36 @@ def extract_table_data(html):
     if low:
         data["low_values"] = parse_table(low)
 
-   
-    # Organiza os dados com a data no formato iso
     return {today: data}
+
+def summary_info(html):
+    soup = BeautifulSoup(html, "html.parser")
+    line_info = soup.select_one("div.line-info")
+
+    if not line_info:
+        return {}
+
+    result = {
+        "Date": datetime.now().date().isoformat(),
+        "ID": str(uuid.uuid4())
+    }
+
+    for div in line_info.find_all("div"):
+        label = div.find("label")
+        value = div.find("p")
+        if label and value:
+            label = label.get_text(strip=True)
+            value = value.get_text(strip=True)
+            result[label] = value
+    print(result)
+    return result
+
+    
+    
+
+
+
+
+
+
+
