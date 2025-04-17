@@ -20,7 +20,7 @@ async def scrape_loop():
             async with aiohttp.ClientSession() as session:
                 async with session.get("http://localhost:5000/scrape") as resp:
                     text = await resp.text()
-                    print(f"Resposta do /scrape: {resp.status} - {text}")
+                  
         except Exception as e:
             print(f" Erro ao chamar /scrape: {e}")
         await asyncio.sleep(900)  

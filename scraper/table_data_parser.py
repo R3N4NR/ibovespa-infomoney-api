@@ -54,7 +54,6 @@ def summary_info(html):
             label = label.get_text(strip=True)
             value = value.get_text(strip=True)
             result[label] = value
-    print(result)
     return result
 
     
